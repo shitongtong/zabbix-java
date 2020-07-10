@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /zabbix-java
+  port: 20000
+
+#日志配置
+logging:
+  config: classpath:logback.xml
+
